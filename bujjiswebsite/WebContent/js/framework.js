@@ -25,3 +25,16 @@ $(document).ready(function(){
          });
 		$(".homelogo").click();
 });
+
+
+function sollution(num){
+	var count = 0;
+	for(var j=0;j<=num;j++){
+		count+= ((new String(j)).split("1").length - 1);
+	}
+
+	console.log('count'+count);
+}
+
+
+
